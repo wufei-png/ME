@@ -1,0 +1,348 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : me_chip
+Version: O-2018.06-SP1
+Date   : Mon Apr 18 13:38:24 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TT1P0V25C   Library: hu55npkldut_tt1p0v25c
+Wire Load Model Mode: segmented
+
+  Startpoint: inst_me/ber_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ber (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pe_line_255        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_254        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_253        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_252        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_251        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_250        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_249        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_248        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_247        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_246        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_245        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_244        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_243        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_242        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_241        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_240        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_239        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_238        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_237        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_236        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_235        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_234        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_233        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_232        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_231        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_230        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_229        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_228        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_227        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_226        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_225        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_224        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_223        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_222        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_221        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_220        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_219        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_218        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_217        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_216        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_215        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_214        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_213        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_212        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_211        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_210        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_209        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_208        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_207        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_206        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_205        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_204        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_203        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_202        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_201        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_200        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_199        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_198        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_197        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_196        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_195        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_194        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_193        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_192        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_191        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_190        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_189        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_188        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_187        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_186        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_185        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_184        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_183        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_182        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_181        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_180        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_179        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_178        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_177        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_176        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_175        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_174        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_173        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_172        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_171        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_170        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_169        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_168        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_167        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_166        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_165        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_164        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_163        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_162        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_161        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_160        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_159        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_158        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_157        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_156        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_155        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_154        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_153        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_152        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_151        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_150        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_149        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_148        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_147        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_146        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_145        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_144        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_143        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_142        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_141        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_140        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_139        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_138        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_137        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_136        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_135        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_134        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_133        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_132        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_131        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_130        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_129        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_128        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_127        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_126        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_125        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_124        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_123        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_122        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_121        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_120        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_119        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_118        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_117        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_116        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_115        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_114        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_113        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_112        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_111        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_110        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_109        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_108        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_107        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_106        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_105        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_104        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_103        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_102        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_101        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_100        ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_99         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_98         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_97         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_96         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_95         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_94         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_93         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_92         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_91         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_90         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_89         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_88         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_87         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_86         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_85         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_84         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_83         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_82         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_81         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_80         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_79         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_78         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_77         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_76         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_75         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_74         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_73         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_72         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_71         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_70         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_69         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_68         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_67         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_66         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_65         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_64         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_63         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_62         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_61         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_60         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_59         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_58         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_57         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_56         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_55         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_54         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_53         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_52         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_51         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_50         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_49         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_48         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_47         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_46         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_45         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_44         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_43         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_42         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_41         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_40         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_39         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_38         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_37         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_36         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_35         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_34         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_33         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_32         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_31         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_30         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_29         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_28         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_27         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_26         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_25         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_24         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_23         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_22         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_21         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_20         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_19         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_18         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_17         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_16         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_15         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_14         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_13         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_12         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_11         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_10         ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_9          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_8          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_7          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_6          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_5          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_4          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_3          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_2          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_1          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_31              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_30              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_29              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_28              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_27              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_26              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_25              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_24              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_23              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_22              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_21              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_20              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_19              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_18              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_17              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_16              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_15              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_14              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_13              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_12              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_11              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_10              ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_9               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_8               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_7               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_6               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_5               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_4               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_3               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_2               ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_1               ZeroWLM               hu55npkldut_tt1p0v25c
+  compare_22bit_1    ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_array_1         ZeroWLM               hu55npkldut_tt1p0v25c
+  cur_reg_1          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_line_0          ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_0               ZeroWLM               hu55npkldut_tt1p0v25c
+  compare_22bit_0    ZeroWLM               hu55npkldut_tt1p0v25c
+  pe_array_0         ZeroWLM               hu55npkldut_tt1p0v25c
+  cur_reg_0          ZeroWLM               hu55npkldut_tt1p0v25c
+  delay              ZeroWLM               hu55npkldut_tt1p0v25c
+  ref_addr           ZeroWLM               hu55npkldut_tt1p0v25c
+  cur_addr           ZeroWLM               hu55npkldut_tt1p0v25c
+  me_chip            ZeroWLM               hu55npkldut_tt1p0v25c
+  me                 ZeroWLM               hu55npkldut_tt1p0v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             4.30       4.30
+  inst_me/ber_reg/CK (SVL_FDPRBQ_1)                       0.00 #     4.30 r
+  inst_me/ber_reg/Q (SVL_FDPRBQ_1)                        0.23       4.53 r
+  inst_me/ber (me)                                        0.00       4.53 r
+  HPDWUW1416DGP_ber/PAD (HPDWUW1416DGP)                   1.90       6.43 r
+  ber (out)                                               0.00       6.43 r
+  data arrival time                                                  6.43
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             4.30       9.30
+  clock uncertainty                                      -0.25       9.05
+  output external delay                                  -2.50       6.55
+  data required time                                                 6.55
+  --------------------------------------------------------------------------
+  data required time                                                 6.55
+  data arrival time                                                 -6.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.12
+
+
+1

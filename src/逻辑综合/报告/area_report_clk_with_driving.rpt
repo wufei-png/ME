@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : me_chip
+Version: O-2018.06-SP1
+Date   : Mon Apr 18 13:38:23 2022
+****************************************
+
+Library(s) Used:
+
+    hu55npkldut_tt1p0v25c (File: /home/student/Desktop/Workspace/55nm/hu55npkldut_tt1p0v25c.db)
+    HL55LPGP3VDS_SL_A01_TT1D8V1D2V25C (File: /home/student/Desktop/Workspace/55nm/HL55LPGP3VDS_SL_A01_P2_TT1D8V1D2V25C.db)
+
+Number of ports:                       229712
+Number of nets:                        505172
+Number of cells:                       244949
+Number of combinational cells:         198285
+Number of sequential cells:             38747
+Number of macros/black boxes:             220
+Number of buf/inv:                      91004
+Number of references:                       4
+
+Combinational area:             543527.865505
+Buf/Inv area:                    88170.317663
+Noncombinational area:          301825.717290
+Macro/Black Box area:           847000.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:               1692353.582795
+Total area:                 undefined
+1
